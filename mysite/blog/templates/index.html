@@ -1,0 +1,20 @@
+<!-- {% load static %}
+<link rel="stylesheet" type="text/css" href="{% static 'css/style.css' %}" /> -->
+{% load bootstrap3 %}
+{% bootstrap_css %}
+{% bootstrap_javascript %}
+<div class="u">
+<h1 class="l">im on</h1>
+</div>
+</body>
+<style>
+  .u {background:red;}
+  .l {color: aqua;}
+  h1{color: red;}
+</style>
+<a href="/main2">main</a>
+{% if hh %}
+
+<h1>{{hh}}</h1>
+
+{% endif %}
